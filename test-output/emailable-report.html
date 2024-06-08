@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">EdgeTest</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">531,151</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">EdgeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">test.TC001_NewAcount</td><td><a href="#m0">NewAccount_test</a></td><td rowspan="2">1717816755306</td><td rowspan="2">32489</td></tr><tr class="failedeven"><td><a href="#m1">NewAccount_test</a></td></tr><tr class="failedodd"><td rowspan="1">test.TC002_Signin</td><td><a href="#m2">signin_Test</a></td><td rowspan="1">1717816937440</td><td rowspan="1">23509</td></tr><tr class="failedeven"><td rowspan="1">test.TC003_Menu</td><td><a href="#m3">navigation</a></td><td rowspan="1">1717817009128</td><td rowspan="1">69581</td></tr><tr class="failedodd"><td rowspan="1">test.TC007_Brand</td><td><a href="#m4">addbrandcart</a></td><td rowspan="1">1717817188089</td><td rowspan="1">12813</td></tr><tr class="failedeven"><td rowspan="1">test.TC008_Checkout</td><td><a href="#m5">payment</a></td><td rowspan="1">1717817206066</td><td rowspan="1">30037</td></tr><tr><th colspan="4">EdgeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.TC000_BrokenLink</td><td><a href="#m6">Linkbroken</a></td><td rowspan="1">1717816713323</td><td rowspan="1">34937</td></tr><tr class="passedodd"><td rowspan="3">test.TC001_NewAcount</td><td><a href="#m7">NewAccount_test</a></td><td rowspan="3">1717816829902</td><td rowspan="3">22874</td></tr><tr class="passedodd"><td><a href="#m8">NewAccount_test</a></td></tr><tr class="passedodd"><td><a href="#m9">NewAccount_test</a></td></tr><tr class="passedeven"><td rowspan="3">test.TC002_Signin</td><td><a href="#m10">signin_Test</a></td><td rowspan="3">1717816990895</td><td rowspan="3">13539</td></tr><tr class="passedeven"><td><a href="#m11">signin_Test</a></td></tr><tr class="passedeven"><td><a href="#m12">signin_Test</a></td></tr><tr class="passedodd"><td rowspan="1">test.TC004_BottomLink</td><td><a href="#m13">bottomlink</a></td><td rowspan="1">1717817083731</td><td rowspan="1">38138</td></tr><tr class="passedeven"><td rowspan="1">test.TC005_ToSearch</td><td><a href="#m14">addcart</a></td><td rowspan="1">1717817127179</td><td rowspan="1">30360</td></tr><tr class="passedodd"><td rowspan="1">test.TC006_ToShop</td><td><a href="#m15">addcartshop</a></td><td rowspan="1">1717817162755</td><td rowspan="1">20380</td></tr></tbody>
+</table>
+<h2>EdgeTest</h2><h3 id="m0">test.TC001_NewAcount#NewAccount_test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>Boopathi</td><td>T</td><td>boopathi13456@gmail.com</td><td>6627Boo6627@</td><td>6627Boo6627@</td><td>9688806196</td><td>correct</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//strong[text()=&apos;Sorry, there was a problem creating your account.&apos;]&quot;}
+  (Session info: MicrosoftEdge=125.0.2535.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a7cbb584455c21cbde040bc3e773b620, findElement {value=//strong[text()=&apos;Sorry, there was a problem creating your account.&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55360}, msedge: {msedgedriverVersion: 125.0.2535.92 (d2d4746171db..., userDataDir: C:\Users\boopa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55360/devtoo..., se:cdpVersion: 125.0.2535.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7cbb584455c21cbde040bc3e773b620
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at test.TC001_NewAcount.NewAccount_test(TC001_NewAcount.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.TC001_NewAcount#NewAccount_test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>Boopathi</td><td>T</td><td>boopathi1@gmail.com</td><td>6627Boo6627@</td><td>6627Boo6627@</td><td>9688806196</td><td>emailwrong</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;Please enter a valid email address.&apos;]&quot;}
+  (Session info: MicrosoftEdge=125.0.2535.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ad6436856d9a91e57496d8311d8474fa, findElement {value=//p[text()=&apos;Please enter a valid email address.&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55646}, msedge: {msedgedriverVersion: 125.0.2535.92 (d2d4746171db..., userDataDir: C:\Users\boopa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55646/devtoo..., se:cdpVersion: 125.0.2535.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad6436856d9a91e57496d8311d8474fa
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at test.TC001_NewAcount.NewAccount_test(TC001_NewAcount.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.TC002_Signin#signin_Test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>boopathi13@gmail.com</td><td>6627Boo6627@</td><td>emailwrong</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;Please enter a valid email address.&apos;]&quot;}
+  (Session info: MicrosoftEdge=125.0.2535.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cfe2d5ebb029b41b0c92b1b541825f78, findElement {value=//p[text()=&apos;Please enter a valid email address.&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56903}, msedge: {msedgedriverVersion: 125.0.2535.92 (d2d4746171db..., userDataDir: C:\Users\boopa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56903/devtoo..., se:cdpVersion: 125.0.2535.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cfe2d5ebb029b41b0c92b1b541825f78
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at test.TC002_Signin.signin_Test(TC002_Signin.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.TC003_Menu#navigation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Gift Ideas&quot;}
+  (Session info: MicrosoftEdge=125.0.2535.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ca8d9f17f7872905a94feae9d0479f09, findElement {value=Gift Ideas, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51741}, msedge: {msedgedriverVersion: 125.0.2535.92 (d2d4746171db..., userDataDir: C:\Users\boopa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51741/devtoo..., se:cdpVersion: 125.0.2535.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca8d9f17f7872905a94feae9d0479f09
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at utils.Utility.findElement(Utility.java:83)
+	at pages.Homepage.topdeal(Homepage.java:140)
+	at test.TC003_Menu.navigation(TC003_Menu.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.TC007_Brand#addbrandcart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/site/samsung-laptops/samsung-pc-laptops/pcmcat1662479852741.c?id=pcmcat1662479852741&quot; data-track=&quot;[context:widgetType=flex,linkContent=...,linkRegion=Computing Flex,linkPlacement=c1w1]&quot; class=&quot;flex-link&quot;&gt;Galaxy Book&lt;/a&gt; is not clickable at point (316, 684). Other element would receive the click: &lt;div class=&quot;inspiration-panel panel-type-text col-xs-10 col-xs-offset-1 marginLeft top-middle  panel-variation-text-justification-center panel-variation-text-color-techBlack panel-variation-cta-button-color-undefined panel-variation-shadowbox-none panel-variation-preheadline&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=125.0.2535.92)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [66f95f703ed2a7a398790677b4884d29, clickElement {id=f.A289D24B8A7152DE44F35BE9F15424AB.d.F4DE3E4D958649FE27B43E727369EF3E.e.164}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54343}, msedge: {msedgedriverVersion: 125.0.2535.92 (d2d4746171db..., userDataDir: C:\Users\boopa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54343/devtoo..., se:cdpVersion: 125.0.2535.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (66f95f703ed2a7a398790677b4884d29)] -&gt; link text: Galaxy Book]
+Session ID: 66f95f703ed2a7a398790677b4884d29
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.Brand.bybrand(Brand.java:18)
+	at test.TC007_Brand.addbrandcart(TC007_Brand.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.TC008_Checkout#payment</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;c-button c-button-primary c-button-sm c-button-block c-button-icon c-button-icon-leading add-to-cart-button&quot; type=&quot;button&quot; data-sku-id=&quot;6536970&quot; data-button-state=&quot;ADD_TO_CART&quot; style=&quot;padding:0 8px;margin-bottom:8px;margin-left:0px&quot;&gt;...&lt;/button&gt; is not clickable at point (1281, 549). Other element would receive the click: &lt;div id=&quot;survey_window&quot; class=&quot;modal fade modal-open in&quot; role=&quot;dialog&quot; style=&quot;margin-top: 224px; display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=125.0.2535.92)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [749515e9750aba2129abfd76ee6564bd, clickElement {id=f.2448214FA5CB2BBA0D1C3F5721B51248.d.30B4166FBF415840C7845A945F8D3FFE.e.313}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54565}, msedge: {msedgedriverVersion: 125.0.2535.92 (d2d4746171db..., userDataDir: C:\Users\boopa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54565/devtoo..., se:cdpVersion: 125.0.2535.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (749515e9750aba2129abfd76ee6564bd)] -&gt; xpath: //button[contains(text(),&apos;Add to Cart&apos;)]]
+Session ID: 749515e9750aba2129abfd76ee6564bd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.Brand.bybrand(Brand.java:20)
+	at test.TC008_Checkout.payment(TC008_Checkout.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test.TC000_BrokenLink#Linkbroken</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.TC001_NewAcount#NewAccount_test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>Boopathi</td><td>T</td><td>boopathi13456@gmail.com</td><td>6627@</td><td>6627Boo6627@</td><td>9688806196</td><td>passwordwrong</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">test.TC001_NewAcount#NewAccount_test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>Boopathi</td><td>T</td><td>boopathi13456@gmail.com</td><td>6627Boo6627@</td><td>6627@</td><td>9688806196</td><td>confirmpasswordwrong</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">test.TC001_NewAcount#NewAccount_test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>Boopathi</td><td>T</td><td>boopathi13456@gmail.com</td><td>6627Boo6627@</td><td>6627Boo6627@</td><td>968880</td><td>phonenumberwrong</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">test.TC002_Signin#signin_Test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>boopathi@gmail.com</td><td>6627@</td><td>wrong</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">test.TC002_Signin#signin_Test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>boopathi13456@gmail.com</td><td>6627Boo6627@</td><td>correct</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">test.TC002_Signin#signin_Test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>boopathi13456@gmail.com</td><td>6627Boo@</td><td>passwordwrong</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">test.TC004_BottomLink#bottomlink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">test.TC005_ToSearch#addcart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">test.TC006_ToShop#addcartshop</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
